@@ -32,11 +32,65 @@ CONSTRAINT(ZORLAYICILAR)
 	UNIQUE -> benzersiz kayıt oluşturur.
 	
 	
+CREATE ifadesi ile tablo oluşturmak FOREIGN KEY
+
+	Foreign key olarak tanımlanacak sütunun bağlı olduğu tabloda 1 tane primary key olmalı. !
+		
+		
+CREATE ifadesi ile tablo oluşturmak  UNIQUE kullanımı
+
+	UNIQUE tablo oluşturma esnasında sütun isminden sonra, sütun isimleri ve özellikleri belirlendikten sonra..........
+..
+.
+.
+
+
+
+ALTER ifadesi (DDL'den devam)(daha önceden yapılmış veritabanı nesnesinde değişiklik yapmak için)
+
+Sütun eklemek için
+
+ALTER TABLE tablo ADD sütun_adi özellikler
+
+
+Sütun silmek için
+
+ALTER TABLE tablo DROP COLUMN sütun_adı
+
+
 	
-	
-	
+ALTER TABLE tablo ALTER COLUMN sütun_adı ...(?)	
 	
 		
+
+		        	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //&& sınav sorusu (?) -> primary key ile unique farkı 	
-
-
+		      -> ın like farkı (?)
+		      -> ALTER'den boşluk doldurma soruları gelebilir
+		      
