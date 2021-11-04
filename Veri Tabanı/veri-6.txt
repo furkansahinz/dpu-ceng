@@ -18,8 +18,25 @@ En Temel Kullanım Şekli:
 	
 	
 	CREATE TABLE tablo_ismi
+	....
+	...
+	..
+	.
+
+
+CONSTRAINT(ZORLAYICILAR)
+	
+	NOT NULL
+	CHECK -> bir sutun içinde girilebilecek değerler için bir kısıtlama........
+	DEFAULT
+	UNIQUE -> benzersiz kayıt oluşturur.
 	
 	
 	
+	
+	
+	
+		
+//&& sınav sorusu (?) -> primary key ile unique farkı 	
 
 
