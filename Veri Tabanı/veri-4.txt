@@ -1,0 +1,77 @@
+
+Normalizasyon//araştırılacak
+
+**Veri kaybını önlemek, anlamsal bütünlüğü sağlamak.
+
+ilk 3 kuralda bölme olacak 
+
+4 ve 5 te fazla bölüneni birleştirme işlemi yapılır.
+4-5 performansı arttırmak için kullanılır.
+
+
+1. Normalizasyon Formu (1NF)
+
+Yinelenen grup ya da birleşik veri yok.
+Yan yana veri tutulamaz.
+tabloda aynı veriden olabilir. 
+
+//bir veri tekrar ediyorsa yanlış yoldasınız.
+
+
+2. Normalizasyon Formu(1NF)
+
+güncelleme ve silme sorunları için " 1 tablo içinde tanımlı ve anahtar olmaytan sütun 1.il anahrat olarak tanımlı anahtar sütünlara bağımlı olmalıdır.
+
+satır ekleme sorunu vardır.
+
+
+
+3. normalizasyon 
+
+anahtar olmayan bir sütun başka bir tablonun anahtar sütunu veya bulunduğu tablonun sütunları ile ilgili olmalıdır.
+
+
+
+4. normalizasyon 
+
+
+
+
+
+5. normalizasyon
+
+** normalizasyonun asıl amacı tabloları bölerek hataları önlemek ,tekrarlı kayıtları önlemek.
+
+//ilk 3 form çok önemli, 
+//sql soruları -> doğrudan vize soruları olacak
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

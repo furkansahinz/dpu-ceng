@@ -1,0 +1,142 @@
+İLİŞKİSEL VERİ MODELİ
+
+n to n
+
+- 1e çok(n) tabloların oluşmasıyla oluşur.
+ 
+------- 
+
+-> yeni tabloya ne zaman ihtiyaç duyulur
+	
+	- eğr bir bilgi tekrar ediliyorsa 
+	- 
+------
+
+alanların veri tipi ve boytları aynı olmalıdır.(in-long int)
+
+ **//önümüzdeki haftaya
+	mantıksal tasarım isteniyor.Mantığını anlatan tasarım
+
+	gereksinim analizi
+	kavransal tasarım-> varlık türleri ve ögeleri belirlenir"tablo gösterimi" 	
+	mantıksal tasarım-> varlık ilişki diyagramları
+	sistem testi 
+	bakım
+--------------------------------
+
+veri tabanı tasarımı 
+----
+1) depolanacak veriler
+->gruplar > tabloları 
+
+-> içerisindeki bilgiler sütunları oluşturur. 
+--
+
+*varlık =  dikdörtgen
+------
+
+*niteklik( varlıkta bulunan şeyler +ad,soyad vs+ =  oval
+
+primt,key altı çizili olur.
+
+çok değerli nitelik çift oval içinde olur . tabloya dönüşür, diğerleri sütuna dönüşür. foregn key olarak geri gelir
+
+------
+
+*domain 
+(etki alanı )
+
+--------
+
+*ilişki (varlık ilişki modeli) = baklava dilimi 
+tablolar arasındaki ilişkiyi gösterir.
+recurseif->patronun  personel olması
+&&//eğer bu ilişkide nitelikler varsa,yuvarlak oluşuyorsa, yeni bir tabloya tekabul eder. 
+
+aradaki ilişli türünün (1eçok n to n gibi) belirt çizgiler üzerinde .
+
+//çok a çok ilişki olduğunda yeni bir tablo açmak gerekir.
+
+ilişkiler genelde farklı varklık kümelerinde olmasına rağmen bazen tek bir valık kümesinde olabilr.
+
+-------
+
+*zayıf varlık kümesi =çift çizgili dörtgen
+
+(alt varlıklar, üste bağımlı olanlar ve üstündeki varlık olmadan var olmayacak varlıklardır)
+
+{çok-zayıf değerli varlık araştır}
+
+?dikkat edilecek yerler
+
+varlık kümeleri tabloya
+nitelikler sütunlara 
+
+ilişkide bir varlık kümesinin 1.l anahtarı diğer varlık küesinin yabancı anaktarı olarak belirlenir.
+
+(?)model içinde tanımlayıcı değer bulunuyorsa (tarih-saat gibi) , tanımlayıcı nitelikler yapacı anahtar olarak kullanılan tabloya sütun olarak eklenir.
+birinin p.key i diğerine f.key olarak gider.
+\en fazla hata yapılan yer 
+
+
+-----
+1 to n tablosu
+
+ilişkilerin n tarafındaki tabloya 1 tarafındaki tablonun birincil anahtar sütünü yabancıl anahrar olarak eklenir.
+
+,
+ilişkilerde tanımlayıncı nitelik bulunuyorsa tanımlayıcı nitelikler ilişkinin n tarafına tabloya sütun olarak eklenir.
+
+--1e 1de f.key ne tarafa koyduğunun önemi yok ama 1 e n de n tarafına koymak zorundasın
+
+///kavramsal tasarım da olacak. 
+
+
+-----------
+
+çok a çok ilişkinin tabloya dönüşümü
+
+-oluşturulan ilişkiler tabloya dönüştürülür.
+ilişkiyi oluşturulan tabloların birincil anahtarları ilişki tablosun (nwq tabloya) yabancıl anahtaar olarak eklenir.
+
+ilişkide oluşturulan tablonun birincil anahtarı olşturulan yabancıl anahtarların birlişimden oluşur. bu şekilde oluşturulmus birincil 
+anahtar cevap vermezse yen i bir alan eklenir ve birincil anahtar yapılır
+
+----------
+çok değerli nit. tab. dönş.
+
+çok değer içerien nitelik için tablo olusur. 
+
+
+-----------
+1to1 tek çizgi 
+1ton
+nton
+{araştır}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
