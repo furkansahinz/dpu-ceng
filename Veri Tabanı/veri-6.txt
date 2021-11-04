@@ -1,0 +1,25 @@
+//sql soruları -> doğrudan vize soruları olacak
+SQL(yapılandırılmış so)
+
+DDL
+create- nesne olusturur
+drpo- siler
+
+En Temel Kullanım Şekli:
+	
+	CREATE DATABASE veritabanı_ismi
+	ON
+	PRIMARY(NAME_ dosya_adi)
+	,FILENAME	
+	,.....
+	,....
+	,...
+	
+	
+	
+	CREATE TABLE tablo_ismi
+	
+	
+	
+
+
