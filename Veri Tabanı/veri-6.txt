@@ -27,10 +27,14 @@ En Temel Kullanım Şekli:
 CONSTRAINT(ZORLAYICILAR)
 	
 	NOT NULL
+	
 	CHECK -> bir sutun içinde girilebilecek değerler için bir kısıtlama........
+	
 	DEFAULT
+	
 	UNIQUE -> benzersiz kayıt oluşturur.
 	
+	REFERANCES
 	
 CREATE ifadesi ile tablo oluşturmak FOREIGN KEY
 
@@ -63,32 +67,57 @@ ALTER TABLE tablo ALTER COLUMN sütun_adı ...(?)
 	
 		
 
-		        	
+foreing key ,refernces olmadan olmaz 		        	
+
+ALTER TABLE ogrenci ADD FOREIGN KEY (bolum) REFERENCES bolumler(bolum)
+
+ALTER TABLE ogrenci ADD CONSTRAINT fk_bol ADD FOREIGN KEY (bolum) REFERENCES bolumler(bolum)
 
 
 
 
+DDL 	-> CREATE
+	-> ALTER 
+	-> DROP
+
+Tablo içi nesneleri silmek için TRUNCATE
+
+DELETE kullanıldığında 45 veri varsa 45i silinir ve yeni veriler 46 dan başlar.
+
+TRUNCATE kullanıldığında 45 veri varsa 45i de silinir ve yeni veriler 1'den başlar.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DML (Data Manipulation Language)(Veri İşleme Dili)
+
+	SELECT -> veritabanındaki kayıtları seçmek için kullanılır.
+	
+	INSTERT -> veritabanındaki yeni kayıt eklemek için kullanılır.
+	
+	UPDATE -> veritabanındaki bulunan kayıtların üzerinde değişiklik yapmak için kullanılır.
+	
+	DELETE -> veritabanından kayıt silmek için kullanılır.
 
 
+SELECT sütunlar FROM tablo_adı
 
 
+* kullanılması tablonun tüm kayıtlarını getirir.
 
+bkz: SELECT * FROM tablo_adi
 
+Seçilmek istenen sütunların isimleri.........
 
+SELECT te karışıklığa karşışlık ders.ders_no gibi kull.
+ ______________
+//////ödev\\\\\\
 
+mysql de 
+oracle da
+mssql de büyük harf küçük harf farkı var mıdır ?
+Linux MySQL'de varsayılan değerdir ve büyük / küçük harf duyarsız Windows'ta varsayılan olarak kullanılır, ancak şimdi yükleyici kurulum sırasında bunu sordu. 
+MSSQL için bu, veritabanının harmanlama ayarının bir fonksiyonudur.
 
-
-
-
-
-
-
-
-
-
-
-
-
+\\\\\\\/////////
 
 //&& sınav sorusu (?) -> primary key ile unique farkı 	
 		      -> ın like farkı (?)
