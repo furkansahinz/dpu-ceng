@@ -120,6 +120,19 @@ MSSQL için bu, veritabanının harmanlama ayarının bir fonksiyonudur.
 \\\\\\\/////////
 
 //&& sınav sorusu (?) -> primary key ile unique farkı 	
+				*UNIQUE= yer aldığı tabloda sadece bir değeri sadece bir kere alır. İlgili değerin tekrarlanmasına izin vermez. En önemli özelliği NULL değeri 					alabilmesidir.		
+				
+				
+				*PRIMARY KEY= bir veri tablosunda yer alan her satır için bir vekil / tanımlayıcı (identify) görevi görür, kısıtlamadır (constraint) ve 					eşsizdir. 
+				Bir tablo içerisinde birden fazla alan tek bir birincil anahtar ile tanımlanabilir. Ancak, birincil anahtar yapısı her tabloda sadece bir tane 					olabilir. Benzersiz anahtarda ise böyle bir sınırlama yoktur.
+				
+				Birincil anahtarda NULL kullanıma izin verilmez. Acnak, benzersiz anahtarlarda NULL kayıtlara izin verilir.
+				
+				Birincil anahtar ile veri tablosu üzerinde bir INDEX tanımı oluşturulur ve her kaydın benzersiz bir tanımı yapılır. Benzersiz anahtar 						kullanımında ise değerlerin benzersiz olup olmadığına bakılır. Elbette benzersiz anahtarlar da INDEX adıyla tanımlanabilirler ancak bu sadece 					bir tanımlama olacaktır.
+
+				
+				*FOREIGN KEY=Foreign Key (yabancı anahtar) ikincil anahtar olarak da ifade edilmektedir. Bir veri tablosuna girilebilecek değerleri başka bir 					veri tablosundaki alanlarla ilişkilendirmeye yarar. Özetle, başka bir tablonun birincil anahtarının bir diğer tablo içerisinde yer almasıdır. 					Çoğunlukla bir ana tablo (parent) ile alt tablonun (child) ilişkilendirilmesinde kullanılır. Bu sayede olası veri tekrarlarının önüne 						geçilebilmekte ve ilerleyen zamanda söz konusu olabilecek güncellemelerde ilgili verilerin her yerde güncellenmesi sağlanabilmektedir.
+
 		      -> ın like farkı (?)
 		      -> ALTER'den boşluk doldurma soruları gelebilir
 		      
